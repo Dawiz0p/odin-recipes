@@ -1,6 +1,7 @@
 html{
-    background-color:rgb(45, 56, 45)
-
+    background-color:rgb(45, 56, 45);
+   
+    
 }
 
 .open {
@@ -26,6 +27,8 @@ p {
     border: 1px solid black;
     display: inline-block;
     border: 1px solid orange;
+    margin-top:40px;
+    
 }
 .second {
     border: 1px solid black;
@@ -41,4 +44,30 @@ p {
     border: 1px solid black;
     display: inline-block;
     border: 1px solid orange;
+    
+   
+}
+h1:nth-child(n + 2){
+    color:white;
+    background-color:rgb(255, 165, 0 , 0.4);
+    border-radius: 15px;
+}
+h1:first-child{
+    position:absolute;
+    color:white;
+    width:100%;
+    text-align:center;
+    margin:0;
+    background-color:rgb(255, 165, 0 , 0.4);
+    top:0px;
+    right:0px;
+    left:0px;
+}
+ul li{
+    list-style-type: none;
+    font-weight:bold;
+}
+ol li{
+    list-style-type: none;
+    font-weight:bold;
 }
