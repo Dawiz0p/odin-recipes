@@ -1,26 +1,49 @@
+html{
+    background-color: #ff7f49
+}
 .brown {
     text-align: center;
     background-color: #ff7f50;
 }
+h1{
+    color:white;
+}
 
 .box{
-    border-style:solid;
+    border:3px solid black;
     padding: 25px;
+    width:100%;
+    
 }
 button {
-    background-color: rgb(133, 133, 16)
+    background-color: rgb(133, 133, 16);
+    border-radius: 5%;
+}
+button:focus{
+    
+    background-color:orange;
 }
 .lasagna {
     color: black;
     padding: 25px;
     font-size: 30px;
     font-weight: bolder;
+    text-decoration: none;
+    opacity:0.69;
 }
 #press {
     margin: 20px auto;
     width: 300px;
+    position:relative;
+    top: 200px;
 }
 .image {
     border-style:double;
     width: 100%;
+    position: absolute;
+    top:20px;
+    z-index: -1;
+}
+[src="./images/lasagna.jpeg"]{
+    opacity:0.69;
 }
